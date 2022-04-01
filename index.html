@@ -10,162 +10,208 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuex"></script>
+    <title>SELLYOUCOMICCOLLECTION</title>
 </head>
 <body>
     
     <div class="w-full overflow-hidden">
         <div class="bg-black px-4 pt-8 md:pt-24 pb-8 flex justify-center md:justify-between">
             <div class="flex items-end justify-end">
-                <h1 class="text-3xl md:text-5xl text-white uppercase"><span class="text-orange-400">S</span>ell<span class="text-orange-400">Y</span>our<span class="text-orange-400">C</span>omic</span><span class="text-orange-400">C</span>ollection</h1>
+                <h1 class="text-3xl md:text-7xl text-white uppercase"><span class="text-orange-400">S</span>ell<span class="text-orange-400">Y</span>our<span class="text-orange-400">C</span>omic</span><span class="text-orange-400">C</span>ollection</h1>
             </div>
         </div>
     </div>
     <div class="bg-gray-100">
-        <div class="bg-white">
-            <div class="md:flex container mt-8 md:mt-20">
+        <div class="bg-white container px-0">
+            <div class="md:flex md:container ">
                 <div class="md:w-8/12">
-                    <div class="md:mr-4 mb-16">
-                        <div>
-                            <h2 class="text-3xl mb-4">Who are we?</h2>
-                            <p class=" mb-4"><span class="text-2xl text-orange-400">SellYourComicCollection</span> is a family run business that specialises in the collecting, buying, and selling, of comic books. Oh, another one? I hear you say? Actually no.</p> 
-                            <p class="mb-4">The reason our business exists, and what sets us apart from the others, is that we are, at heart, and before all else, collectors. We're not here to make a quick buck and move the books on to the next for a quick profit, we're here because of our love of the industry, the collection game itself, and, of course, the comics. Because of this, you can trust that we will not just be offering fair prices for your treasured comic books, but if they don't fit our own collecting criteria, each and every one will be going to people that care for them as much as you once did. With our extensive customer base, we make sure this happens.</p>
-                        </div>
-                        <h2 class="text-3xl mb-4 mt-8">Why choose us?</h2>
-                        <p class="mb-4">Well, this parts easy. Have you ever tried to sell a comic collection? Or even just a few comics? If so, you already know the answer to this.</p>
-                        <p class="mb-4">Comic books are <span class="text-orange-400">Notoriously</span> difficult to shift, be it ebay, facebook or wherever you choose to list your little stack of treasures. Selling just a few comic books could be months worth of work in itself, not to mention the time taken to research proper selling titles, learn comic book grade assesments (an absolute must), and research which print your book is, or even a place or platform to sell, plus countless other annoying bits that end up ultimately being more time than its worth, especially due to the fact that the average comic book isn't worth much more than the paper it's printed on. On top of this all, there's the unfortunate fact that in this modern day and age, all unprotected transactions run the risk of fraud, or being scammed. There is a LOT of these scams out there, many focusing specifically on people selling items such as these, so please - even if you choose not to take us up on our offer, ensure that you do your research on the techniques that scammers use beforehand.</p>
-                        <p class="mb-4">This is where we come in.</p>
-                    </div>
-                    <div class="md:mt-20">
-                        <div class="md:pr-8">
+                    <div>
+                        <div class="md:flex">
 
-                                <div class="md:flex w-full mb-4">
-                                    <div class="md:w-1/2 md:mr-4">
-                                        <div class="relative rounded-2xl overflow-hidden">
-                                            <div class="bg-gray-200 w-full text-center py-2 opacity-90" style="position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);">
-                                                <h2 class="text-6xl"><span class="text-orange-400">E</span>ase</h2>
-                                            </div>
-                                            <img src="https://media.wired.com/photos/5955cdbf5992c54331ac1ac4/master/pass/411246_10150834626845039_11937280038_11441801_350518093_o.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100">
-                                        <div>
-                                            <p>There is no waiting, no back and forward between buyer and seller with the 'uhm's and 'ahh's of an unproffesional trade</p>
-                                        </div>
-                                    </div>
+                            <div class="hidden md:block flex justify-center items-bottom w-full pr-12 pt-20">
+                                <div class="w-96">
+                                    <img class="img-fluid" src="./img/sycc.png" alt="">
                                 </div>
-                                   
-                                <div class="md:flex w-full mb-4">
-                                    <div class="hidden md:block md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100 md:mr-4">
-                                        <div>
-                                            <p>Family run, personal approach to trading. There is no such thing as a stupid question, and we're here for you.</p>
-                                        </div>
-                                    </div>
-                                    <div class="md:w-1/2">
-                                        <div class="relative rounded-2xl overflow-hidden">
-                                            <div class="bg-gray-200 w-full text-center py-2 opacity-90" style="position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);">
-                                                <h2 class="text-6xl"><span class="text-orange-400">P</span>ersonal</h2>
-                                            </div>
-                                            <img src="https://media.wired.com/photos/5955cdbf5992c54331ac1ac4/master/pass/411246_10150834626845039_11937280038_11441801_350518093_o.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="md:hidden md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100 md:mr-4">
-                                        <div>
-                                            <p>Family run, personal approach to trading. There is no such thing as a stupid question, and we're here for you.</p>
-                                        </div>
-                                    </div>
+                            </div>
+
+                            <div class="pb-8 md:pb-4 pl-8 md:pl-auto pr-8">
+                                <h2 class="text-3xl mb-4 mt-8 font-bold">Who are we?</h2>
+                                <p class=" mb-4"><span class="text-2xl text-orange-400 font-bold">SellYourComicCollection</span> is a family run business based in the heart of hampshire, that specialises in the collecting, buying, and selling, of comic books, and comic book collections. Oh, another one? I hear you say? Actually no.</p> 
+                                <p class="mb-0">The reason our business exists, and what sets us apart from the others, is that we are, at heart, and before all else, collectors. We're not here to make a quick buck and move the comic books on to the next for a quick profit, we're here because of our love of the industry, the collecting game itself, and, of course, the comics. Because of this, you can trust that we will not just be offering fair prices for your treasured comic book collection, but if they don't fit our own collecting criteria, each and every one will be going to people that care for them as much as you once did. With our extensive customer base, we make sure this happens.</p>
+                            </div> 
+
+                        </div>
+
+                        <div class="px-8 pb-8 md:pb-auto">
+                            <h2 class="text-3xl mb-4 mt-0 font-bold">Why choose us?</h2>
+                            <p class="mb-4">Well, this parts easy. Have you ever tried to sell a comic collection? Or even just a few comics? If so, you already know the answer to this.</p>
+                            <p class="mb-4">Comic books are <span class="text-orange-400 font-bold">Notoriously</span> difficult to shift, be it eBay, Facebook or wherever you choose to list your little stack of treasures. Selling just a few comic books could be months worth of work in itself, not to mention the time taken to research proper selling titles, learn comic book grade assesments (an absolute must), and research which print your book is, the year of publication, or even a place or platform to sell, plus countless other annoying bits that end up ultimately being more time than its worth, especially due to the fact that the average comic book isn't worth much more than the paper it's printed on. On top of this all, there's the unfortunate fact that in this modern day and age, all unprotected transactions run the risk of fraud, or being scammed. There is a LOT of these scams out there, many focusing specifically on people selling items such as these, so please - even if you choose not to take us up on our offer, ensure that you do your research on the techniques that scammers use beforehand.</p>
+                        </div>
+                        
+                        <div class="w-full h-96 md:h-auto bg-black relative mb-8">
+                            <div class="tester flex justify-center md:justify-end items-start relative h-64 pr-4">
+                                <div class="ease bg-black md:h-20 md:w-20 flex justify-center flex-col items-center p-2 md:p-4 hover:scale-125 z-20 hover:z-30 hover:cursor-pointer transition hover:bg-white ">
+                                    <p class="text-white">Ease</p>
+                                    <p class="text-black">Ease</p>
+                                </div>
+                                <div class="easehide w-full bg-black text-sm absolute -bottom-16 md:bottom-2 left-0 md:left-4 p-4 transition">
+                                    <h2 class="text-3xl mb-4 text-white">Ease</h2>
+                                    <p class="text-white w-full">There is no waiting, no back and forward between buyer and seller with the 'uhm's and 'ahh's of an unproffesional trade. We buy your comic book collection, we travel to you, we collect, and boom. Job done.</p>
+                                </div> 
+                                <div class="personal bg-black md:h-20 md:w-20 flex justify-center flex-col items-center p-2 md:p-4 hover:scale-125 z-20 hover:z-30 hover:cursor-pointer transition hover:bg-white ">
+                                    <p class="text-white">Personal</p>
+                                    <p class="text-black">Personal</p>
+                                </div>
+                                <div class="personalhide w-full bg-black text-sm absolute -bottom-16 md:bottom-2 left-0 md:left-4 transition p-4">
+                                    <h2 class="text-3xl mb-4 text-white">Personal</h2>
+                                    <p class="text-white w-full">We're a Family run business with a personal approach to trading. There is no such thing as a stupid question, and we're here for you every step of the way. When we buy comic collections we're acutely aware that these items often have sentimental value, and as such we will treat every<br> transaction with extra care.</p>
+                                </div>
+                                <div class="honesty bg-black md:h-20 md:w-20 flex justify-center flex-col items-center p-2 md:p-4 hover:scale-125 z-20 hover:z-30 hover:cursor-pointer transition hover:bg-white ">
+                                    <p class="text-white">Honesty</p>
+                                    <p class="text-black">Honesty</p>
+                                </div>
+                                <div class="honestyhide w-full bg-black text-sm absolute -bottom-16 md:bottom-2 left-0 md:left-4 transition p-4">
+                                    <h2 class="text-3xl mb-4 text-white">Honesty</h2>
+                                    <p class="text-white w-full">Part of the trouble when you sell your comic book collection, is often the fact that you, as the seller, are unaware of their value. <br> Rest assured, when we buy your comic collection you will get a FAIR, market accurate, price.</p>
+                                </div>
+                                <div class="time bg-black md:h-20 md:w-20 flex justify-center flex-col items-center p-2 md:p-4 hover:scale-125 z-20 hover:z-30 hover:cursor-pointer transition hover:bg-white ">
+                                    <p class="text-white">Time</p>
+                                    <p class="text-black">Time</p>
+                                </div>
+                                <div class="timehide w-full bg-black text-sm absolute -bottom-16 md:bottom-2 left-0 md:left-4 transition p-4">
+                                    <h2 class="text-3xl mb-4 text-white">Time</h2>
+                                    <p class="text-white w-full">This is the absolute killer when it comes to undertaking a sale yourself. We save you months, and, months of work. One thing you will come to realise if you choose to undertake the work yourself, is that comic books are HARD to sell. The only way to maximise profit is to sell each and every book individually, which is an EXTREMELY long and frustratingly drawn out process. We do all of that so that you don't have to. When you sell your comic collection to us, it takes minutes, not months.</p>
+                                </div>
+                                <div class="security bg-black md:h-20 md:w-20 flex justify-center flex-col items-center p-2 md:p-4 hover:scale-125 z-20 hover:z-30 hover:cursor-pointer transition hover:bg-white ">
+                                    <p class="text-white">Security</p>
+                                    <p class="text-black">Security</p>
+                                </div>
+                                <div class="securityhide w-full bg-black text-sm absolute -bottom-16 md:bottom-2 left-0 md:left-4 transition p-4">
+                                    <h2 class="text-3xl mb-4 text-white">Security</h2>
+                                    <p class="text-white w-full">Another, and perhaps the most important factor of our process, is security. Comic books and collectibles are highly targetted by professional scammers and fraudsters, who are coming up with new ways to achieve parting you from your items without paying you a penny, every single day. When you sell your comic collection to us, there is no risk. Payments will be sent and verified in your bank account before we even leave your property with the goods, and as a registered limited company, you can trust in us.</p>
+                                </div>
+                                <div class="collection bg-black md:h-20 md:w-20 flex justify-center flex-col items-center p-2 md:p-4 hover:scale-125 z-20 hover:z-30 hover:cursor-pointer transition hover:bg-white ">
+                                    <p class="text-white">Collect</p>
+                                    <p class="text-black">Collection</p>
+                                </div>
+                                <div class="collectionhide w-full bg-black text-sm absolute -bottom-16 md:bottom-2 left-0 md:left-4 transition p-4">
+                                    <h2 class="text-3xl mb-4 text-white">Collection</h2>
+                                    <p class="text-white w-full">We collect right from your doorstep. This means no hassle with couriers, no worry that your goods are going to be damaged or lost in transit, or the buyer is going to claim they never arrived. The moment we arrive and load the comic books, is the moment your worries are over.</p>
                                 </div>
                                 
-                                <div class="md:flex w-full mb-4">
-                                    <div class="md:w-1/2 md:mr-4">
-                                        <div class="relative rounded-2xl overflow-hidden">
-                                            <div class="bg-gray-200 w-full text-center py-2 opacity-90" style="position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);">
-                                                <h2 class="text-6xl"><span class="text-orange-400">H</span>onesty</h2>
-                                            </div>
-                                            <img src="https://media.wired.com/photos/5955cdbf5992c54331ac1ac4/master/pass/411246_10150834626845039_11937280038_11441801_350518093_o.jpg" alt="">
+                            </div>
+                            <div class="whatnow mb-10 absolute -bottom-8 left-4 transition p-4 text-white">
+                                <h2 class="text-3xl mt-8 mb-8 font-bold">So what now?</h2>
+                                <p>This is where we come in. Hover over a title above to find out!</p>
+                            </div>
+                        </div>
+
+                        <div class="px-8">
+                            <h2 class="text-3xl mb-4 mt-0 font-bold">So, to recap</h2>
+                            <p class="mb-4">We take all of the effort out of selling your comic book collection. We make the entire process easy, ensuring transaction security, with an honest, personal touch, AND after we buy your comic book collection, we collect it right from your door. So what are you waiting for? Get in contact <span class="text-orange-400 font-bold">now</span> and sell us your comic book collection!</p>
+                        </div>
+
+                        <div class="px-8">
+                            <h2 class="text-3xl font-bold mb-4 mt-0">Now that you've decided to sell us your comic book collection... What now?</h2>
+                            <p class="pb-2">There are a few potential ways for you to proceed at this point, each have their advantages and disadvantages, as explained below.</p>
+                            <p class="mb-4"><span class="text-xl">PLEASE NOTE</span> - We are often able to travel to inspect and perform valuations on comic book collections, and the below is not required if this is arranged beforehand.</p>
+                            <div class="md:flex">
+                                <div class="p-4 mb-16 md:mb-4 border-4 border-black/10">
+                                    <h3 class="text-xl font-bold mb-2">Option 1 - The Quick and Easy</h3>
+                                    <p class="mb-4 h-32">It's all in the title! This option is by far the fastest, for those of you that are looking to get rid of a comic book collection at speed, and with ease. The process here is simple.</p>
+                                    <ul class="list-disc list-inside mb-4 h-80">
+                                        <li class="mb-2">What we need:</li>
+                                        <li class="mb-2">Estimate issue count (Does not have to be exact, but as a rough guide - a comic book long-box holds around 230 comic books if bagged and boarded, or 250 if unprotected)</li>
+                                        <li class="mb-2">Age range of publication (E.G 1960s, 1970s, 1980s etc. Again this can be a guess based on how long you, or the previous owner have owned the comic books.)</li>
+                                        <li class="mb-2">Estimate grade</li>
+                                    </ul>
+                                    <div class="bg-gray-100 p-4">
+                                        <div class="pb-2">
+                                            <h3 class="text-xl mb-2"><span class="text-orange-400 font-bold">Pros</span></h3>
+                                            <p class="text-xs">Incredibly fast</p>
+                                            <p class="text-xs">Incredibly easy</p>
                                         </div>
-                                    </div>
-                                    <div class="md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100">
                                         <div>
-                                            <p>An upfront, honest offer</p>
+                                            <h3 class="text-xl mb-2">Cons</h3>
+                                            <p class="text-xs">With blind buys the offer per issue can be marginaly lower than a disclosed collection.</p>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="md:flex w-full mb-4">
-                                    <div class="hidden md:block md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100 md:mr-4">
+                                <div class="p-4 bg-gray-100 mb-16 md:mb-4">
+                                    <h3 class="text-xl font-bold mb-2">Option 2 - The Halfway Mark</h3>
+                                    <p class="mb-4 h-32">Similar to the above - This one mixes in an element of speed, but increasing the potential offer by disclosing more information regarding the collection </p>
+                                    <ul class="list-disc list-inside mb-4 h-80">
+                                        <li class="mb-2">What we need:</li>
+                                        <li class="mb-2">Accurate issue count</li>
+                                        <li class="mb-2">Accurate age range of publication</li>
+                                        <li class="mb-2">Images or videos of the lot. These can be taken as whole spreads of the comic books, but please ensure the covers are visible. Videos can sometimes be easier and save more time.</li>
+                                    </ul>
+                                    <div class="bg-white p-4">
+                                        <div class="pb-2">
+                                            <h3 class="text-xl mb-2"><span class="text-orange-400 font-bold">Pros</span></h3>
+                                            <p class="text-xs">Fast</p>
+                                            <p class="text-xs">Easy</p>
+                                            <p class="text-xs">Can yield a higher purchase price</p>
+                                        </div>
                                         <div>
-                                            <p>This is the killer when it comes to undertaking a sale yourself. We save you months, and, months of work.</p>
-                                        </div>  
-                                    </div>
-                                    <div class="md:w-1/2">
-                                        <div class="relative rounded-2xl overflow-hidden">
-                                            <div class="bg-gray-200 w-full text-center py-2 opacity-90" style="position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);">
-                                                <h2 class="text-6xl"><span class="text-orange-400">T</span>ime</h2>
-                                            </div>
-                                            <img src="https://media.wired.com/photos/5955cdbf5992c54331ac1ac4/master/pass/411246_10150834626845039_11937280038_11441801_350518093_o.jpg" alt="">
+                                            <h3 class="text-xl mb-2">Cons</h3>
+                                            <p class="text-xs">Slightly more time consuming</p>
                                         </div>
                                     </div>
-                                    <div class="md:hidden md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100 md:mr-4">
-                                        <div>
-                                            <p>This is the killer when it comes to undertaking a sale yourself. We save you months, and, months of work.</p>
-                                        </div>  
-                                    </div>
                                 </div>
-
-                                <div class="md:flex w-full mb-4">
-                                    <div class="md:w-1/2 md:mr-4">
-                                        <div class="relative rounded-2xl overflow-hidden">
-                                            <div class="bg-gray-200 w-full text-center py-2 opacity-90" style="position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);">
-                                                <h2 class="text-6xl"><span class="text-orange-400">S</span>ecurity</h2>
-                                            </div>
-                                            <img src="https://media.wired.com/photos/5955cdbf5992c54331ac1ac4/master/pass/411246_10150834626845039_11937280038_11441801_350518093_o.jpg" alt="">
+                                <div class="p-4 mb-16 md:mb-4 border-4 border-black/10">
+                                    <h3 class="text-xl font-bold mb-2">Option 3 - The Detective</h3>
+                                    <p class="mb-4 h-32">This option is for those of you that want to maximise the purchase price, and have the time to do so.</p>
+                                    <ul class="list-disc list-inside mb-4 h-80">
+                                        <li class="mb-2">What we need:</li>
+                                        <li class="mb-2">Accurate issue count</li>
+                                        <li class="mb-2">Accurate age range of publication</li>
+                                        <li class="mb-2">Individual images of comic books, though these can be split into runs to save time.</li>
+                                        <li class="mb-2">An inclusive list documenting each issue by series name, issue number, and release date (Many issues and series have identical names and the only thing separating them is the publication date)</li>
+                                    </ul>
+                                    <div class="bg-gray-100 p-4">
+                                        <div class="pb-2">
+                                            <h3 class="text-xl mb-2"><span class="text-orange-400 font-bold">Pros</span></h3>
+                                            <p class="text-xs">By far the easiest way for us to make an accurate offer, inline with the current market.</p>
                                         </div>
-                                    </div>  
-                                    <div class="md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100">
-                                        <div>
-                                            <p class="mb-8 mt-4">Risk-less sales. We're with you every step of the way</p>
-                                        </div>  
-                                    </div>
-                                </div>
-
-                                <div class="md:flex w-full mb-4">
-                                    <div class="hidden md:block md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100 md:mr-4">
-                                        <div>
-                                            <p>We collect. This offer extends UK-wide.</p>
-                                        </div>  
-                                    </div>
-                                    <div class="md:w-1/2">
-                                        <div class="relative rounded-2xl overflow-hidden">
-                                            <div class="bg-gray-200 w-full text-center py-2 opacity-90" style="position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);">
-                                                <h2 class="text-6xl"><span class="text-orange-400">C</span>ollection</h2>
-                                            </div>
-                                            <img src="https://media.wired.com/photos/5955cdbf5992c54331ac1ac4/master/pass/411246_10150834626845039_11937280038_11441801_350518093_o.jpg" alt="">
-                                        </div>        
-                                    </div>
-                                    <div class="md:hidden md:w-1/2 p-4 flex items-center rounded-2xl overflow-hidden bg-gray-100 md:mr-4">
-                                        <div>
-                                            <p>We collect right from your doorstep. This offer extends UK-wide.</p>
-                                        </div>  
+                                        <div class="pb-2">
+                                            <h3 class="text-xl mb-2">Cons</h3>
+                                            <p class="text-xs">Time consuming</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        <div>
-                             
                         </div>
                     </div>
+                    <div class="px-12 pt-8 hidden md:block ">
+                        <h2 class="text-2xl mb-4 pt-2">How to locate the publication date of a comic book?</h2>
+                        <p class="pb-4">Anooyingly, once more, this doesn't have a one-shot answer, though thankfully there is a slight consistency in location. With mMarvel comic books, and most Indie, the Publication date can be found on the first page, just inside the front cover.</p>
+                        <img src="img/5tg.jpg" alt="">
+
+                        <p class="py-8">With DC comics, many have the publication date just below the issue number, on the front cover.</p>
+                        <img src="/img/sell your comic collection dc comic book.jpg" alt="">
+                    </div>
                 </div>  
-                <div class="md:w-1/2 bg-gray-100 p-4 relative">
-                    <div class="container mb-20">
-                        <h2 class="text-3xl mb-4 pt-2">How to request a quote?</h2>
+                <div class="md:w-1/2 bg-gray-100 p-4 relative max-h-min">
+                    <div class="container mb-10">
+                        <h2 class="text-3xl mb-4 pt-2 font-bold">How to request a quote?</h2>
                         <p class="my-4">This parts easy. First, decide wether you're selling a small stack of individual issues, or a large collection.</p>
-                        <p class="my-4">If you find yourself at odds with a bulk load - Just contact us directly, either via the contact form above, or via our email INEEDTOCREATEANEMAIL@HOTMAIL.COM. Things to note if taking this route that would speed this process along, would be the name of publishers within the collection, estimate issue count, age, and condition of the lot.</p>
-                        <p>Or if its single, or a low ammount of comic books - Photograph each individual cover, whilst trying to document any defects or damage to the book. Moneys are not paid until the book has been recieved, but we are able to give an accurate pricing prior to sending, provided the images sent are accurate. </p>
+                        <p class="my-4">If you find yourself at odds with a bulk load - Just contact us directly, either via the contact form above, or via our email INEEDTOCREATEANEMAIL@HOTMAIL.COM. Things to note if taking this route that would speed this process along:</p>
+                        <ul class="list-disc list-inside my-4">
+                            <li>Name of publishers within the collection</li>
+                            <li>Estimate issue count</li>
+                            <li>Age range of issues (release date)</li>
+                            <li>Condition</li>
+                        </ul>
+                        
+                        <p>Or if its single issue, or a small ammount of comic books - Photograph each individual cover, whilst trying to document any defects or damage to the book. Moneys are not paid until the book has been recieved, but we are able to give an accurate pricing prior to sending, provided the images sent are properly representative of the item. </p>
                     </div>
                     
                     <div class="container">
                         <p class="pt-6 text-sm">Need help?</p>
-                        <h2 class="text-3xl mb-4 pt-2">Contact us</h2>
+                        <h2 class="text-3xl mb-4 pt-2 font-bold">Contact us</h2>
                         <div class="container text-left">
                             <form>
                               <input class="bg-gray-200 mb-8 w-full p-2" type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -174,22 +220,54 @@
                               <div class="text-left mb-8">
                                 <textarea class="bg-gray-200 w-full p-2 h-24" id="subject" name="subject" placeholder="Your message.."></textarea>  
                               </div>
-                              <input type="submit" value="Submit">
+                              <input class="bg-orange-300 px-4 py-2" type="submit" value="Submit">
                             </form>
                         </div>
                     </div>
                     
                     <div class="container my-20">
-                        <p>
-                            Please note: Due to the number of purchase requests that we recieve, we are unable to gaurantee that we are able to purchase every lot offered. If you require help valuing your collection prior to submitting a quote request, please remember that very few comics hold much value post-1970, with an average value (if we were to sell the book in one of our stores) being under 50 pence. 
-                        </p>
+                        <div class="container">
+                            <p>
+                                Please note: Due to the number of purchase requests that we recieve, we are unable to gaurantee that we are able to purchase every lot offered. If you require help valuing your collection prior to submitting a quote request, please remember that very few comics hold much value post-1970, with an average value (if we were to sell the book in one of our stores) being under 50 pence. 
+                            </p>
+                        </div>
                     </div>
-                    <div class="md:absolute md:w-96 bottom-0 -right-44">
-                        <img class="img-fluid" src="./img/sycc.png" alt="">
+
+                    <div class="px-8">
+                        <h2 class="text-3xl mb-4 mt-0 font-bold">Tips and Tricks</h2>
+                        <p class="mb-4">Not everyone will instantly have the knowledge required to fill in our quotation request forms, and why would you? Not everyone collects comic books, and the lot you're selling may have been a storage find or an inheritence. Luckily we're here to help.</p>
+                    </div>
+
+                    <div class="px-8">
+                        <h2 class="text-2xl mb-4 mt-0">Where do I locate the issue number?</h2>
+                        <p class="mb-4">Unfortunately there's no quick and easy answer to this, though in general the issue number should be fairly self explanitory and very easy to find.</p>
+                        <div class="w-full h-full">
+                            <img class="img-fluid" src="/img/1qa.jpg" alt="Sell your comic collection, hampshire comic collection, buying comic collections, marvel comics, DC comics">
+                        </div>
+                        <p class="mt-4">On older marvel comics, in general the issue number will be located below the Marvel logo at the top left - though this is not inclusive of all covers.</p>
+                        <div class="w-full h-full">
+                            <img class="img-fluid" src="/img/1qa.jpg" alt="Sell your comic collection, hampshire comic collection, buying comic collections, marvel comics, DC comics">
+                        </div>
+                        <p class="my-4">With newer DC, again, in general the issue number will be located below the logo at the top left.</p>
+                        <div class="w-full h-full pb-8">
+                            <img class="img-fluid" src="/img/2ws.jpg" alt="Sell your comic collection, hampshire comic collection, buying comic collections, marvel comics, DC comics">
+                        </div>
+                        <div class="pt-8 md:hidden">
+                            <h2 class="text-2xl mb-4 pt-2">How to locate the publication date of a comic book?</h2>
+                            <p class="pb-4">Anooyingly, once more, this doesn't have a one-shot answer, though thankfully there is a slight consistency in location. With mMarvel comic books, and most Indie, the Publication date can be found on the first page, just inside the front cover.</p>
+                            <img src="img/5tg.jpg" alt="">
+    
+                            <p class="py-8">With DC comics, many have the publication date just below the issue number, on the front cover.</p>
+                            <img src="/img/sell your comic collection dc comic book.jpg" alt="">
+                        </div>
+                        <p class="py-4">Valuing comic books can be a confusing process, but when you sell your comic book collection - we're with you every step of the way. No question is a stupid question, and we're happy to help. We understand that this can be a very overwhelming process, but selling your comic books to us is a pain-free process. Don't hesitate to get in touch.</p>
                     </div>
                 </div>
             </div>
             
+        </div>
+        <div class="footer w-full bg-black h-44 md:mt-20">
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

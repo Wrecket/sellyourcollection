@@ -2,3 +2,85 @@
     /* font-family: 'Electrolize', sans-serif; */
     font-family: 'Oswald', sans-serif;
 }
+
+.easehide {
+    transition:all 3s;
+    opacity: 0;
+}
+
+.ease:hover + .easehide {
+    opacity: 1;
+}
+
+.easehide:hover {
+    display:block;
+}
+
+.personalhide {
+    transition:all 3s;
+    opacity: 0;
+}
+
+.personal:hover + .personalhide {
+    opacity: 1;
+}
+
+.personalhide:hover {
+    display:block;
+}
+
+.honestyhide {
+    transition:all 3s;
+    opacity: 0;
+}
+
+.honesty:hover + .honestyhide {
+    opacity: 1;
+}
+
+.honestyhide:hover {
+    display:block;
+}
+
+.timehide {
+    transition:all 3s;
+    opacity: 0;
+}
+
+.time:hover + .timehide {
+    opacity: 1;
+}
+
+.timehide:hover {
+    display:block;
+}
+
+.securityhide {
+    transition:all 3s;
+    opacity: 0;
+}
+
+.security:hover + .securityhide {
+    opacity: 1;
+}
+
+.securityhide:hover {
+    display:block;
+}
+
+.collectionhide {
+    transition:all 3s;
+    opacity: 0;
+}
+
+.collection:hover + .collectionhide {
+    opacity: 1;
+}
+
+.collectionhide:hover {
+    display:block;
+}
+
+.tester:hover + .whatnow {
+    opacity: 0;
+}
